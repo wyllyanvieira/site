@@ -129,7 +129,8 @@ main {
 }
 
 section.intro {
-  padding: 80px 0;
+  padding: 100px ;
+
 }
 
 section.intro .container {
@@ -159,15 +160,16 @@ section.intro .container .group1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 20px;
-  max-width: 350px;
+
 }
 
 section.intro .container .group1 h1 {
   font-size: 36px;
+  text-align: center;
 }
 
 section.intro .container .group1 .type-animation {
@@ -194,7 +196,7 @@ section.intro .container .group1 .intro-btns {
           flex-direction: row;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
-          justify-content: start;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -206,7 +208,6 @@ section.intro .container .group1 .cv-btn {
   background-color: #ff0000;
   padding: 15px 30px;
   border-radius: 5px;
-  color: #F9F9F9;
 }
 
 section.intro .container .group1 .contact-btn {
@@ -536,15 +537,6 @@ footer p span {
   }
 }
 
-@media screen and (max-width: 424.9px) {
-  .container {
-    width: 90%;
-  }
-  section.intro .group1 {
-    text-align: center;
-    -webkit-box-align: center !important;
-        -ms-flex-align: center !important;
-            align-items: center !important;
-  }
-}
+
+
 /*# sourceMappingURL=main.css.map */
