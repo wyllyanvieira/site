@@ -172,13 +172,7 @@ section.intro .container .group1 h1 {
   text-align: center;
 }
 
-section.intro .container .group1 .type-animation {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-section.intro .container .group1 p {
+section.intro .container .group1 .typewrite {
   color: #828282;
 }
 
